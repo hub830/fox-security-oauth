@@ -4,10 +4,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import lombok.Data;
 
 @Data
-@ConfigurationProperties(prefix = "fox.security.oauth")
+@ConfigurationProperties(prefix = "fox.security")
 public class SecurityProperties {
-  
+
   private ValidateCodeProperties code = new ValidateCodeProperties();
 
-  private String jwtSigningKey = "s1f41234pwqdqkl4l12ghg9853123sd";
+  private OAuth2Properties oauth2 = new OAuth2Properties();
 }
