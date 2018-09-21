@@ -1,0 +1,6 @@
+rootProject.name = 'fox-security-oauth'
+
+include 'fox-security-oauth-authorization'
+include 'fox-security-oauth-resource'
+include 'fox-security-authorization-demo'
+include 'fox-security-resource-demo'
