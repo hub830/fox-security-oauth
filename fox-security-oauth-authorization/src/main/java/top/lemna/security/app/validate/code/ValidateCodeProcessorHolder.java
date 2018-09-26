@@ -2,7 +2,6 @@ package top.lemna.security.app.validate.code;
 
 
 import java.util.Map;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

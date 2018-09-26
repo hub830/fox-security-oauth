@@ -56,12 +56,6 @@ public class FoxAuthorizationServerConfig extends AuthorizationServerConfigurerA
             .scopes("all");
       }
     }
-    /*
-    clients.inMemory()//
-    .withClient("client")//
-    .secret(passwordEncoder.encode("secret"))
-    .authorizedGrantTypes("password", "refresh_token").scopes("read", "write");*/
-
   }
 
 }

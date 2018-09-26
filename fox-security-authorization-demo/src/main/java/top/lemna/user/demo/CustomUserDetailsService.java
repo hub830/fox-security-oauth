@@ -1,4 +1,4 @@
-package top.lemna.security.demo;
+package top.lemna.user.demo;
 
 import java.util.ArrayList;
 import java.util.Collection;

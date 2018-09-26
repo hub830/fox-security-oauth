@@ -3,6 +3,7 @@ package top.lemna.security.app.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -17,6 +18,7 @@ import top.lemna.security.app.properties.SecurityProperties;
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
+@ComponentScan("top.lemna.security.app")
 @EnableConfigurationProperties(SecurityProperties.class)
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 

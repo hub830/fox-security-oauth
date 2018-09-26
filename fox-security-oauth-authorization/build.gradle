@@ -1,15 +1,9 @@
-
-apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
+apply from: '../maven_push.gradle'
 
-dependencies
-{
-//  compile project(':fox-security-oauth-core')
+dependencies {
   compile('org.springframework.cloud:spring-cloud-starter-oauth2')
-  compile('org.springframework.boot:spring-boot-starter-data-redis')
-  
 }
-
 //spring boot
 dependencyManagement {
   //

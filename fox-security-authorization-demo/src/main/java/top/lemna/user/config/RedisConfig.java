@@ -1,4 +1,4 @@
-package top.lemna.security.config;
+package top.lemna.user.config;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
-import top.lemna.security.util.GenericJackson2JsonRedisSerializerEx;
+import top.lemna.user.util.GenericJackson2JsonRedisSerializerEx;
 
 
 @Configuration

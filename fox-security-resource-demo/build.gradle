@@ -4,11 +4,13 @@ apply plugin: 'io.spring.dependency-management'
 
 dependencies
 {
-  compile project(':fox-security-oauth-resource')
+  compile('top.lemna:fox-security-oauth-resource:0.0.1-SNAPSHOT')
+//  compile project(':fox-security-oauth-resource')
   compile("org.springframework.boot:spring-boot-devtools")
+  compile('org.springframework.boot:spring-boot-starter-web')
   testCompile('org.springframework.boot:spring-boot-starter-test')
 
-  runtime 'mysql:mysql-connector-java:8.0.8-dmr'
+//  runtime 'mysql:mysql-connector-java:8.0.8-dmr'
 }
 
 //spring boot
