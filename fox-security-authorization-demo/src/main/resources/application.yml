@@ -4,6 +4,9 @@ spring:
   redis:
     host: 192.168.1.10
     database: 6
+  data:
+    mongodb:
+      uri: mongodb://user:123456@192.168.10.10:27017/user?authMechanism=SCRAM-SHA-1
 
 fox:
   security:

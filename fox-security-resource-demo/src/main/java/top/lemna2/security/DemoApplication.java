@@ -1,10 +1,10 @@
-package top.lemna.security;
+package top.lemna2.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan("top.lemna.security")
+//@ComponentScan("top.lemna.security")
 @SpringBootApplication
 public class DemoApplication {
 

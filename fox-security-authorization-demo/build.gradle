@@ -3,6 +3,10 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 dependencies {
+  
+  
+  compile("org.springframework.boot:spring-boot-starter-data-mongodb")
+  
   compile('top.lemna:fox-security-oauth-authorization:0.0.12-SNAPSHOT')
   compile('org.springframework.boot:spring-boot-starter-data-redis')
   compile('org.springframework.boot:spring-boot-starter-web')

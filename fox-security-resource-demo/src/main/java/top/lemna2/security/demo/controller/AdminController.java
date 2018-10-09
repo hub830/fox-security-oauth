@@ -1,4 +1,4 @@
-package top.lemna.security.demo.controller;
+package top.lemna2.security.demo.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;

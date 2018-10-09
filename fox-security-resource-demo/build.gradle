@@ -4,7 +4,7 @@ apply plugin: 'io.spring.dependency-management'
 
 dependencies
 {
-  compile('top.lemna:fox-security-oauth-resource:0.0.1-SNAPSHOT')
+  compile('top.lemna:fox-security-oauth-resource:0.0.2-SNAPSHOT')
 //  compile project(':fox-security-oauth-resource')
   compile("org.springframework.boot:spring-boot-devtools")
   compile('org.springframework.boot:spring-boot-starter-web')
