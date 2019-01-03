@@ -3,6 +3,8 @@ apply from: '../maven_push.gradle'
 
 dependencies {
   compile('org.springframework.cloud:spring-cloud-starter-oauth2')
+//  compile('org.springframework.boot:spring-boot-starter-json')
+//  compile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310')
 }
 //spring boot
 dependencyManagement {

@@ -16,6 +16,7 @@ public class FoxAuthorizeConfigProvider implements AuthorizeConfigProvider {
         config.antMatchers(
                 SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_FORM,
                 SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_MOBILE,
+                "/oauth/token",
                 SecurityConstants.DEFAULT_VALIDATE_CODE_URL_PREFIX+"/*")
         .permitAll();
     }
