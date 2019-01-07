@@ -55,7 +55,7 @@ public class MyImageCodeGenerator implements ValidateCodeGenerator {
 
     String sRand = "";
     for (int i = 0; i < securityProperties.getCode().getImage().getLength(); i++) {
-      String rand = "8";
+      String rand = "1";
       sRand += rand;
       g.setColor(
           new Color(20 + random.nextInt(110), 20 + random.nextInt(110), 20 + random.nextInt(110)));
